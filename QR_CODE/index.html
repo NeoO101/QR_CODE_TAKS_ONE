@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>QR Code Card</title>
-    <style>
-        body {
-            background-color:#D5E1EF;
-        }
-        div{
-            width: 320px;
-            background-color:white;
-            border-radius: 20px;
-            overflow:hidden;
+    <head>
+        <title>QR code taks</title>
+        <meta charset="UTF-8"/>
+        <link rel="icon" type="image/png" href="/QR_CODE/images/favicon-32x32.png" />
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit" />
+        <style>
+            body {
+                background-color: #D5E1EF;
+            }
+           
+            div {
+                position: absolute;
+                width: 320px;
+                height: 497px;
+                background-color: #FFFFFF;
+                border-radius: 20px;
+                overflow: hidden;
+                padding: 16px;
+                top: 50%;
+                left: 50%;
+                
+            }
+            img {
+                max-width: 100%;
+                border-radius: 10px;
+            }
+            h1 {
+                color: #1F314F;
+                height: 56px;
+                width: 288px;
+                font-size: 22px;
+                line-height: 28px;
+                font-weight: 700;
+                font-family: 'Outfit';
+                text-align: center;
+                font-style: normal;
+            }
+            p {
+                color: #7D889E;
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 19px;
+                text-align: center;
+                letter-spacing: 0.1875px;
 
-            padding:16px;
-            position:absolute;
-            top:152px;
-            left:560px;
-            align-items:center;
-            
-        }
-        img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        p {
-            font-family: 'Outfit';
-            font-style:normal;
-            font-weight:400;
-            font-size:15px;
-            line-height:19px;
-            text-align:center;
-            color: #7D889E;
-            letter-spacing:0.1875px;
-            
-        }
-    </style>
-</head>
+            }
+        </style>
+    </head>
 
     <body>
         <div>
-            <img src="images/image-qr-code.png"/>
+            <img src="/QR_CODE/images/image-qr-code.png"/>
             <h1>Improve your front-end skills by building projects</h1>
-
-            <p>Scan the QR code to visit Frontend 
-                Mentor and take your coding skills to
-                the next level
-            </p>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>                
         </div>
     </body>
 </html>
